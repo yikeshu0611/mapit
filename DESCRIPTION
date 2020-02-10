@@ -1,0 +1,22 @@
+Package: mapit
+Title: Heat Map, Bubble Map and Migration Map
+Version: 1.0
+Authors@R: 
+    c(
+    person("Jing","Zhang",role = c("aut", "cre"),email = "zj391120@163.com"),
+    person("Zhi", "Jin", role="aut")
+    )
+Description: Plot heat map, bubble map and migration map.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10),
+    ggplot2
+RoxygenNote: 6.1.1
+Imports: 
+    do,
+    cowplot,
+    tmcn,
+    ggrepel,
+    crayon
